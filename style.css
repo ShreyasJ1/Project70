@@ -1,35 +1,47 @@
-#contact iframe
+body
 {
-    width: 100%;
+background-color: rgb(87, 85, 85);
+text-align:center;
 }
-.travel_maindiv
+h1
 {
-border:1px solid lightgrey;
+color:white;
 }
-.travel_maindiv img
+.line
+{
+height:6px;
+background-color:black;
+width:70px;
+margin:8px auto;
+}
+#library
 {
 width:100%;
+padding:100px;
 }
-.travel_maindiv h5, .travel_maindiv p
+#library img
 {
-margin:20px;
+width:60%;
+height:800px;
 }
-.movie_head
+p
 {
-font-size:20px;
-padding: 6px 22px;
-border-radius:10px;
-margin-bottom:15px;
+color:white;
 }
-.movie_head i
+.my_nav_bar
 {
-float:right;
+position:sticky;
+top:0;
+z-index:99999;
 }
-.movie_text span
+.achievements_head
 {
-color:orange;
+    font-size:20px;
+    padding: 6px 22px;
+    border-radius:10px;
+    margin-bottom:15px;
 }
-.book hr
+.glyphicon
 {
-margin-bottom:10px;
+color:orange
 }
